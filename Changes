@@ -1,4 +1,14 @@
 ==============================
+2010-03-09 16:10:16 +0000 0.08
+==============================
+
+  commit f7c6ccc2550d2fc7808346f11b9eb56eaa91f555
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date:   Tue Mar 9 16:10:16 2010 +0000
+  
+    Added App::CPANIDX::Renderer renderers() class method 
+
+==============================
 2010-03-08 14:01:45 +0000 0.06
 ==============================
 
