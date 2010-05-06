@@ -21,16 +21,16 @@ no_index:
 provides:
   App::CPANIDX:
     file: lib/App/CPANIDX.pm
-    version: 0.14
+    version: 0.16
   App::CPANIDX::Queries:
     file: lib/App/CPANIDX/Queries.pm
-    version: 0.14
+    version: 0.16
   App::CPANIDX::Renderer:
     file: lib/App/CPANIDX/Renderer.pm
-    version: 0.14
+    version: 0.16
   App::CPANIDX::Tables:
     file: lib/App/CPANIDX/Tables.pm
-    version: 0.14
+    version: 0.16
 recommends:
   DBD::mysql: 4.013
 requires:
@@ -45,6 +45,7 @@ requires:
   HTML::Tiny: 1.05
   IO::Zlib: 1.10
   JSON::XS: 2.27
+  Module::CoreList::DBSchema: 0.06
   Parse::CPAN::MirroredBy: 0.02
   URI: 1.52
   XML::Simple: 2.18
@@ -54,4 +55,4 @@ resources:
   homepage: http://github.com/bingos/app-cpanidx/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/app-cpanidx.git
-version: 0.14
+version: 0.16
