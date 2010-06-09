@@ -1,4 +1,21 @@
 ==============================
+2010-06-09 11:18:37 +0100 0.18
+==============================
+
+  commit a46424ef7ea551a4046a8ef8e477a2b2be07900d
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Wed Jun 9 11:18:37 2010 +0100
+  
+    Added lastupdated to the timestamp table which is when the packages
+    file we used was last updated
+
+  commit 83de37da7ff5e452af3d866fed308c3c860b61ba
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Sun May 23 23:02:22 2010 +0100
+  
+    Sync 
+
+==============================
 2010-05-06 10:41:11 +0100 0.16
 ==============================
 
