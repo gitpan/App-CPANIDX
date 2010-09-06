@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.99'
+generated_by: 'Module::Install version 1.00'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,16 +21,16 @@ no_index:
 provides:
   App::CPANIDX:
     file: lib/App/CPANIDX.pm
-    version: 0.22
+    version: 0.24
   App::CPANIDX::Queries:
     file: lib/App/CPANIDX/Queries.pm
-    version: 0.22
+    version: 0.24
   App::CPANIDX::Renderer:
     file: lib/App/CPANIDX/Renderer.pm
-    version: 0.22
+    version: 0.24
   App::CPANIDX::Tables:
     file: lib/App/CPANIDX/Tables.pm
-    version: 0.22
+    version: 0.24
 recommends:
   DBD::mysql: 4.013
 requires:
@@ -49,7 +49,6 @@ requires:
   JSON::XS: 2.27
   Module::CoreList::DBSchema: 0.06
   Parse::CPAN::MirroredBy: 0.02
-  Test::More: 0.47
   URI: 1.52
   XML::Simple: 2.18
   YAML::Tiny: 1.41
@@ -58,4 +57,4 @@ resources:
   homepage: http://github.com/bingos/app-cpanidx/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/app-cpanidx.git
-version: 0.22
+version: 0.24
