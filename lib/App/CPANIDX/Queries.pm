@@ -5,7 +5,7 @@ use warnings;
 use Module::CoreList::DBSchema;
 use vars qw[$VERSION];
 
-$VERSION = '0.26';
+$VERSION = '0.28';
 
 my $mcdbs = Module::CoreList::DBSchema->new();
 
@@ -14,6 +14,7 @@ my %queries = (
   'dist' => [ 'select * from dists where dist_name = ?', 1 ],
   'auth' => [ 'select * from auths where cpan_id = ?', 1 ],
   'dists' => [ 'select * from dists where cpan_id = ?', 1 ],
+  'perms' => [ 'select * from perms where mod_name = ?', 1 ],
   'timestamp' => [ 'select * from timestamp', 0 ],
   'firstmod' => [ 'select mod_name from mods order by mod_name limit 1', 0 ],
   'nextmod' => [ 'select mod_name from mods order by mod_name limit ?,1', 1 ],
