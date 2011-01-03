@@ -1,4 +1,33 @@
 ==============================
+2011-01-03 14:33:44 +0000 0.30
+==============================
+
+  commit 6ee72040120c5d4ec793f8fe40a25480e154d3f9
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon Jan 3 14:33:44 2011 +0000
+  
+    Sync up dist
+
+  commit 0d291b19d24db8da6febd4e4162a2ec904a05ef1
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon Jan 3 14:32:19 2011 +0000
+  
+    Bump version to 0.30
+
+  commit d5c8d61cb14f8e57a5f49d3f2b2bc4ec6a0d6bda
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon Jan 3 14:31:02 2011 +0000
+  
+    Fix schoolboy error
+
+  commit e83f4c743592946f95ba60bff6801a619c267f5a
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon Jan 3 14:27:55 2011 +0000
+  
+    Make error handling more robust and add skip(core|mirrors|perms)
+    options to cpanidx-gendb 
+
+==============================
 2011-01-01 23:55:45 +0000 0.28
 ==============================
 
