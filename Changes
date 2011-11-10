@@ -1,4 +1,27 @@
 ==============================
+2011-11-10 14:53:43 +0000 0.32
+==============================
+
+  commit 42d95ff23f3faf73dff9a65a8812ef1a2c3d424a
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Thu Nov 10 14:53:43 2011 +0000
+  
+    Bump version to 0.32
+
+  commit 8bda4e27be41c951c4229238b43d28220a383595
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Sun Aug 21 19:34:40 2011 +0100
+  
+    Prettify the JSON output and sanity check the module names being
+    searched for
+
+  commit 6ea52ca32d48e45d10404d80cc1024d04a908d0a
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Sun Aug 21 19:16:43 2011 +0100
+  
+    Trailing whitespace, you are the weakest link, good bye. 
+
+==============================
 2011-01-03 14:33:44 +0000 0.30
 ==============================
 

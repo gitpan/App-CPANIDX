@@ -3,12 +3,13 @@ abstract: 'Queryable web-based CPAN Index'
 author:
   - 'Chris Williams <chris@bingosnet.co.uk>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.62
   Test::More: 0.47
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.62
 distribution_type: module
-generated_by: 'Module::Install version 1.00'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.04'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,16 +22,16 @@ no_index:
 provides:
   App::CPANIDX:
     file: lib/App/CPANIDX.pm
-    version: 0.30
+    version: 0.32
   App::CPANIDX::Queries:
     file: lib/App/CPANIDX/Queries.pm
-    version: 0.30
+    version: 0.32
   App::CPANIDX::Renderer:
     file: lib/App/CPANIDX/Renderer.pm
-    version: 0.30
+    version: 0.32
   App::CPANIDX::Tables:
     file: lib/App/CPANIDX/Tables.pm
-    version: 0.30
+    version: 0.32
 recommends:
   DBD::mysql: 4.013
 requires:
@@ -54,7 +55,10 @@ requires:
   YAML::Tiny: 1.41
   perl: 5.6.0
 resources:
-  homepage: http://github.com/bingos/app-cpanidx/tree
+  homepage: https://github.com/bingos/app-cpanidx/tree
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/bingos/app-cpanidx.git
-version: 0.30
+  repository:
+    type: git
+    url: git://github.com/bingos/app-cpanidx.git
+    web: https://github.com/bingos/app-cpanidx/tree
+version: 0.32
